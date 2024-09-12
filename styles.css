@@ -1,9 +1,21 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
     font-family: Roboto, Tahoma, Verdana, sans-serif;
 }
 
-/* p {
-    font-family: Roboto, Tahoma, Verdana, sans-serif;
-} */
+div.top
+{
+    background-color: #1f2937;
+    color: white;
+}
+
+div.testimonial {
+    background-color: #e5e7eb;
+}
+
+div.footer {
+    background-color: #1f2937;
+    color: white;
+}
