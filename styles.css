@@ -5,10 +5,37 @@ body {
     font-family: Roboto, Tahoma, Verdana, sans-serif;
 }
 
-div.top
-{
+div.top {
     background-color: #1f2937;
     color: white;
+}
+
+div.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    align-items: center;
+}
+
+div.logo {
+    margin-left: 300px;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+div.navigation {
+    margin-right: 400px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navigation a {
+    color: #e5e7eb;
+    text-decoration: none;
 }
 
 div.testimonial {
