@@ -8,6 +8,8 @@ body {
 div.top {
     background-color: #1f2937;
     color: white;
+    padding-left: 400px;
+
 }
 
 div.header {
@@ -18,7 +20,7 @@ div.header {
 }
 
 div.logo {
-    margin-left: 300px;
+    /* margin-left: 300px; */
     font-size: 24px;
     color: #f9faf8;
 }
@@ -41,7 +43,7 @@ a {
 div.hero {
     display: flex;
     justify-content: space-between;
-    margin-left: 300px;
+    /* margin-left: 300px; */
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -79,8 +81,6 @@ div.hero div.image {
     justify-content: center;
     align-items: center;
 }
-
-div.hero div.image p {}
 
 div.testimonial {
     background-color: #e5e7eb;
