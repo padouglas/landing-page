@@ -66,11 +66,15 @@ div.description p {
 
 div.hero div.description button {
     background-color: #3882f6;
-    padding: 5px 20px;
+    padding: 5px 0;
     font-weight: bold;
     color: #e5e7eb;
     border: 0;
     border-radius: 5px;
+}
+
+button a {
+    padding: 0px 20px;
 }
 
 div.hero div.image {
@@ -86,7 +90,7 @@ div.information {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 div.information h2 {
@@ -122,6 +126,23 @@ div.card p {
 
 div.testimonial {
     background-color: #e5e7eb;
+    text-align: left;
+    font-style: italic;
+    font-size: 30px;
+    color: #1f2937;
+    padding: 0 570px;
+}
+
+div.testimonial p.quote {
+    margin-bottom: 0;
+}
+
+p.credit {
+    text-align: right;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: normal;
+    margin-top: 0;
 }
 
 div.footer {
